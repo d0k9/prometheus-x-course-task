@@ -1,0 +1,192 @@
+@import '~bootstrap/dist/css/bootstrap.min.css';
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* BOOK-LIST */
+.hr-border {
+    border: 1px solid #000111;
+}
+.navbar {
+    display: flex;
+    justify-content: right;
+}
+
+.navbar-brand {
+    width: 75%;
+}
+
+.cart-button {
+    border: 0;
+    background-image: url('./images/cart.svg');
+    width: 2em;
+    height: 2em;
+}
+
+.circle {
+    width: 2em;
+    height: 2em;
+    border-radius: 100%;
+    border: 1px black solid;
+}
+
+.main {
+    margin: 2%;
+}
+
+span {
+    font-weight: bold;
+}
+
+.username {
+    font-weight: bold;
+}
+
+.cover {
+    width: 30%;
+    min-height: 0;
+}
+      
+p {
+    margin: 0;
+    padding: 0;
+}
+
+.book-card {
+    border: 1px solid green;
+    background-color: #00800049;
+    margin: 10px;
+    padding: 10px;
+}
+
+
+
+
+/* SPECIFIC-BOOK-STYLES */
+
+  .hr-border {
+      border: 1px solid #000111;
+  }
+  .navbar {
+      display: flex;
+      justify-content: right;
+  }
+  
+  .navbar-brand {
+      width: 75%;
+  }
+  
+  .cart-button {
+      border: 0;
+      background-image: url('./images/cart.svg');
+      width: 2em;
+      height: 2em;
+  }
+  
+  .circle {
+      width: 2em;
+      height: 2em;
+      border-radius: 100%;
+      border: 1px black solid;
+  }
+  
+  .main {
+      margin: 2%;
+  }
+  
+  #cover {
+      width: 100%;
+      height: auto;
+  }
+  
+  span {
+      font-weight: bold;
+  }
+  
+  .username {
+      font-weight: bold;
+  }
+  
+  .aside-block {
+      padding: 5%;
+      border: 1px dashed #000111;
+  }
+  
+  .add-to-cart {
+      position: relative;
+      display: flex;
+      align-self: flex-end;
+      border: 1px solid grey;
+      border-radius: 10%;
+  }
+  
+  .count,
+  .price {
+      font-weight: bold;
+      margin: 2px;
+  }
+  
+  .quantity_goods{
+      display: flex;
+      justify-content: right;
+  }
+  
+  #num_count,
+  #button_minus,
+  #button_plus {
+      border-radius: 10px;
+      border: 1px solid #000111;
+      margin: 2px;
+  }
+  
+  #button_minus,
+  #button_plus {
+  min-width: 10%;
+  }
+
+  /* SignIn styles */
+  .text-center {
+    box-sizing: border-box;
+    text-align: center;
+}
+
+img {
+    height: 160px;
+    width: 160px;
+}
+
+p {
+    box-sizing: border-box;
+    /* font-weight: bold; */
+}
+
+.btn-default,
+#password {
+    width: 200px;
+}
+
+.form-control {
+    margin-bottom: 10px;
+    display: inline-block;
+    text-align: center;
+}
+
+@media (max-width : 320px) {
+    .btn-default,
+    #password {
+    width: 100%;
+    padding: 0 8px 0 8px;
+    max-width: 200px;
+    max-height: 200px;
+}
+    }
